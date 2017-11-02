@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-jun-2016, 23:04:08
+    Author     : ignaciodeandreisdenis
+*/
+
+.root {
+    -fx-background-image: url("field.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 625;
+    -fx-background-position: center center;
+}
+
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#grid-background {
+   -fx-background-color: #F2FFFFFF;
+}
